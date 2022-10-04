@@ -2,9 +2,10 @@
     padding:0;
     background-color:gray;
     text-align: center;
+    min-height:100vh;
 }
 
-.nuv, .menu{
+.nuv, .menu, .about{
     background-color: black;
     color: white;
 }
@@ -13,10 +14,28 @@ h2{
     padding: 10px;
 }
 
+.menu, .stats{
+    min-height: 60vh;
+}
+
 .stats{
     background-color: black;
     color: white;
-    border-top: 5px solid grey;
-    border-bottom: 5px solid grey;
 }
 
+ul{
+    list-style: none;
+}
+
+.card{
+    color: black;
+}
+
+.items{
+    margin-left: auto; 
+margin-right: 0;
+}
+
+.fastfood, .menu, .about{
+    padding: 2rem;
+}

@@ -36,11 +36,13 @@
                 <div class="row">
                     <div class="cook1 col">
                         <img src="images/chef.png" height="60px" width="60px">
-                        Give Orders Here!
+                        Give Orders Here! <br>
+                        <button type="button" class="btn btn-dark">Orders to be taken</button>
                     </div>
                     <div class="cook1 col">
                         <img src="images/chef.png" height="60px" width="60px">
-                        Get Food here!
+                        Get Food here! <br>
+                        <button type="button" class="btn btn-dark">Orders that are ready</button>
                     </div>
                 </div>
             </div>
@@ -56,20 +58,44 @@
             <div class="container-fluid">
                 <div class="menu row">
                     <div class="items col">
-                        <p>1. Burger</p>
-                        <p>2. Drink</p>
+                        <div class="card" style="width: 10rem; height:5rem;">
+                            <div class="card-body">
+                              <h5 class="card-title">Burger</h5>
+                              <h6 class="card-subtitle mb-2 text-muted">200</h6>
+                            </div>
+                          </div>
+                          <br>
+                          <div class="card" style="width: 10rem; height:5rem;">
+                            <div class="card-body">
+                              <h5 class="card-title">Pepsi</h5>
+                              <h6 class="card-subtitle mb-2 text-muted">100</h6>
+                            </div>
+                          </div>
+                          <br>
                     </div>
                     <div class="items col">
-                        <p>3. Icecream</p>
-                        <p>4. Order</p>
+                        <div class="card" style="width: 10rem; height:5rem;">
+                            <div class="card-body">
+                              <h5 class="card-title">Ice Cream</h5>
+                              <h6 class="card-subtitle mb-2 text-muted">50</h6>
+                            </div>
+                          </div>
+                          <br>
+                          <div class="card" style="width: 10rem; height:5rem;">
+                            <div class="card-body">
+                              <h5 class="card-title">Place Order</h5>
+                              <h6 class="card-subtitle mb-2 text-muted">No refunds</h6>
+                            </div>
+                          </div>
+                          <br>
                     </div>
-                    <div class="items">
+                    <div class="bill">
                         <h2>Bill</h3>
-                        <h4>Burger x<span class="burger"></span></h4>
-                        <h4>Drink x<span class="drink"></span></h4>
-                        <h4>Icecream x<span class="ice"></span></h4>
+                        <h4 class="Burger">Burger x<span class="burger">0</span></h4>
+                        <h4 class="Drink">Drink x<span class="drink">0</span></h4>
+                        <h4 class="Ice">Icecream x<span class="ice">0</span></h4>
                         <br>
-                        <h4>Total<span class="burger"></span></h4>
+                        <h4>Total: <span class="total">0</span></h4>
                     </div>
                 </div>
             </div>
